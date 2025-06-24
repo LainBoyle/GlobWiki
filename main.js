@@ -16,7 +16,7 @@ Andrew Saxon enjoys hiking in scenic locations and stargazing. He’s the guy wh
     name: 'Green Pants Glob',
     image: 'assets/greenpantsglob.png',
     rarity: '1/4',
-    description: `Green Pants Glob lives on some paintings and napkins as a drawing. He is on the back of some cardboard, and not in your yard. You might catch him hiding behind a tree. Don’t look at him, he’s shy. He’s a groovy fellow. He enjoys potted plants and fancy pants, avoids passing glances, and molasses, uh, crasses. Woohoo. Voted Most Likely to be Run Into at the Supermarket in Glob school.`
+    description: `Green Pants Glob lives on some paintings and napkins as a drawing. They're on the back of some cardboard, and not in your yard. You might catch them hiding behind a tree. Don’t look at them, they’re shy. They’re a groovy fellow. Enjoys potted plants and fancy pants, avoids passing glances, and molasses, uh, crasses. Woohoo. Voted Most Likely to be Run Into at the Supermarket in Glob school.`
   },
   {
     name: 'Split Dye Bob Glob',
@@ -35,7 +35,7 @@ Her name is also short for Split-Dye Roberta Glob. Kind of a Gloth girl - rocks 
     name: 'Evil Glob',
     image: 'assets/evilglob.png',
     rarity: '1/100',
-    description: `Not much is known about them. We actually have no evidence that they're evil at all. They have a clean criminal record and keep to themself for the most part. I think they just call him Evil Glob because his eyes look like that. I don't really know him that well, to be honest.`
+    description: `Not much is known about him. We actually have no evidence that he's evil at all. he has a clean criminal record and keeps to himself for the most part. I think they just call him Evil Glob because his eyes look like that. I don't really know him that well, to be honest.`
   },
   {
     name: 'Midas',
