@@ -32,9 +32,9 @@ body::after {
 }
 
 .site-title {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
-  font-size: 3rem;
-  color: #ff00aa;
+  font-family: 'Nosifer';
+  font-size: 4rem;
+  color: #371559;
   margin: 1rem 0;
 }
 #gallery {
