@@ -4,6 +4,32 @@ body {
   padding: 0;
   text-align: center;
 }
+body.dimmed::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(180, 180, 180, 0.2);
+  pointer-events: none;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(180, 180, 180, 0.2);
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
 
 .site-title {
   font-family: 'Comic Sans MS', 'Comic Sans', cursive;
@@ -23,8 +49,15 @@ body {
   height: 300px;
   object-fit: cover;
   cursor: pointer;
+  background-color: #ffffff;
   border: 1px solid #ccc;
   border-radius: 4px;
+  transition: transform 0.2s;
+}
+#gallery img:hover {
+  transform: scale(1.1);
+  position: relative;
+  z-index: 2;
 }
 #glob-view img {
   width: 300px;

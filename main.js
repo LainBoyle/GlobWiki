@@ -53,6 +53,12 @@ function renderGallery() {
     const img = document.createElement('img');
     img.src = glob.image;
     img.alt = glob.name;
+    img.addEventListener('mouseenter', () => {
+      document.body.classList.add('dimmed');
+    });
+    img.addEventListener('mouseleave', () => {
+      document.body.classList.remove('dimmed');
+    });
     link.appendChild(img);
     gallery.appendChild(link);
   });
