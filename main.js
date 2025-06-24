@@ -29,7 +29,7 @@ Andrew Saxon enjoys hiking in scenic locations and stargazing. He’s the guy wh
     image: 'assets/cutesplitdyebobglob.png',
     rarity: '1/80',
     description: `Split-Dye Bob Glob variant. 
-Her name is also short for Split-Dye Roberta Glob. Kind of a Gloth girl - rocks her style with an iron fist. Despite always being mistaken for SD Berty G, she actually has a completely unique set of interests and talents. For example: She can tie her necktie into an Eldredge Knot while riding a horse. And she's a real girls' girl. You know, ride or tie.`
+Her name is also short for Split-Dye Roberta Glob. Kind of a Gloth girl - rocks her style with an iron fist. Despite always being mistaken for <a href="index.html?id=3">SD Berty G</a>, she actually has a completely unique set of interests and talents. For example: She can tie her necktie into an Eldredge Knot while riding a horse. And she's a real girls' girl. You know, ride or tie.`
   },
   {
     name: 'Evil Glob',
@@ -51,6 +51,9 @@ function renderGallery() {
   app.innerHTML = '<div id="gallery"></div>';
   const gallery = document.getElementById('gallery');
   globs.forEach((glob, index) => {
+    const item = document.createElement('div');
+    item.className = 'glob-item';
+
     const link = document.createElement('a');
     link.href = `index.html?id=${index}`;
     const img = document.createElement('img');
@@ -62,8 +65,15 @@ function renderGallery() {
     img.addEventListener('mouseleave', () => {
       document.body.classList.remove('dimmed');
     });
+
+    const label = document.createElement('div');
+    label.className = 'glob-label';
+    label.textContent = glob.name;
+
     link.appendChild(img);
-    gallery.appendChild(link);
+    item.appendChild(link);
+    item.appendChild(label);
+    gallery.appendChild(item);
   });
 }
 
@@ -98,6 +108,12 @@ function renderGlob(id) {
 }
 
 function init() {
+  const title = document.querySelector('.site-title');
+  if (title) {
+    title.addEventListener('click', () => {
+      window.location = 'index.html';
+    });
+  }
   const params = new URLSearchParams(window.location.search);
   const id = parseInt(params.get('id'), 10);
   if (isNaN(id)) {
