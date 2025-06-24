@@ -1,0 +1,35 @@
+You are a helpful assistant who writes clean, modular websites using standard HTML, CSS, and JavaScript, with no backend.
+
+Create a wiki-style image viewer featuring a collection of characters called "Globs" — hand-drawn images that each represent a unique character with a rarity level.
+
+1. Use three separate files to organize the project: `index.html`, `styles.css`, and `main.js`.
+
+2. The home page (`index.html`) should:
+   - Display a gallery of all Globs as clickable images
+   - Image order (most common → rarest):
+     - 'Glob': 'assets/glob.png'
+     - 'Blue Hat Glob': 'assets/bluehatglob.png'
+     - 'Green Pants Glob': 'assets/greenpantsglob.png'
+     - 'Split Dye Bob Glob': 'assets/splitdyebobglob.png'
+     - 'Cute Split Dye Bob Glob': 'assets/cutesplitdyebobglob.png'
+     - 'Evil Glob': 'assets/evilglob.png'
+     - 'Midas': 'assets/midas.png'
+
+3. When a user clicks on a Glob:
+   - Show a blown-up version of the image on its own page
+   - Display the **Glob's name and rarity above** the image. If you do not know the Glob's rarity, display "Undef." in its place.
+   - Below the image, show a short wiki-style text description of that Glob
+
+4. Include "Next" and "Previous" buttons on each Glob page:
+   - These buttons should let the user navigate forward or backward through the Glob list in rarity order
+   - Optionally wrap around at the beginning and end
+
+5. Include a "Home" button on every page that returns the user to the main gallery
+
+6. Make it easy to add new Globs later by editing a central array or object in the JavaScript file that contains:
+   - The Glob’s name
+   - Image path
+   - Rarity
+   - Description
+
+The design should be simple, clean, and easy to expand.
