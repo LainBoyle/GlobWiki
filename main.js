@@ -22,7 +22,7 @@ Andrew Saxon enjoys hiking in scenic locations and stargazing. He’s the guy wh
     name: 'Split Dye Bob Glob',
     image: 'assets/splitdyebobglob.png',
     rarity: '1/4',
-    description: `Her name is short for Split-Dye Roberta Glob. Her friends call her SD Berty G. Can be seen at the local umbrella store, and also enjoys cantaloupe. There is no cantaloupe store. Loves sidewalk chalk and hiking, and she also hands people glasses of water, and walks past plants. She likes to think of herself as "Pretty Split-Dye Bob Glob."`
+    description: `Her name is short for Split-Dye Roberta Glob. Her friends call her SD Berty G. Can be seen at the local umbrella store, and also enjoys cantaloupe. There is no cantaloupe store. Loves sidewalk chalk and hiking, helping old folks across the street, handing people glasses of water, and walking past plants. She likes to think of herself as "Pretty Split-Dye Bob Glob."`
   },
   {
     name: 'Cute Split Dye Bob Glob',
@@ -41,7 +41,7 @@ Her name is also short for Split-Dye Roberta Glob. Kind of a Gloth girl - rocks 
     name: 'Midas',
     image: 'assets/midas.png',
     rarity: '1/1,000,000',
-    description: `This Glob’s painted smile hides a dark reality for this Glob. Anything he touches turns to Glob! I mean Golb! I mean, you know. Gourd. Whatever. Midas can’t be bought for the worlb. I mean-jeez. Anywho, he is sad because of that, since he cannot hold his family's hands, or hold hands with old ladies at the crosswalk, or any other similarly noble Glob pursuits. However because he’s a Glob, nothing that bad can actually really happen to him, so it’s all ok.
+    description: `This Glob’s painted smile hides a dark reality for this Glob. Anything he touches turns to Glob! I mean Golb! I mean, you know. Gourd. Whatever. Midas can’t be bought for the worlb. I mean-jeez. Anywho, he is sad because of that, since he cannot hold his family's hands, or hold hands with old folks at the crosswalk, or any other similarly noble Glob pursuits. However because he’s a Glob, nothing that bad can actually really happen to him, so it’s all ok.
 He likes to wear expensive fabrics. His favorite foods are golden lemon meringue pie, golden lemons, golden soup, and more. He has a metal water bottle, and drinks metal water. He has a heart of gold. Has a very inefficient bicycle, and an equally inefficient car. His favorite color is green.`
   }
 ];
