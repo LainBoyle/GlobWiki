@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.site-title {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 3rem;
+  color: #ff00aa;
+  margin: 1rem 0;
+}
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+#gallery img {
+  width: 150px;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#glob-view img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+nav {
+  margin-top: 1rem;
+}
+button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+}
